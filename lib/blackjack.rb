@@ -64,7 +64,7 @@ def runner
     value_store = hit?(value_store)
   end
   
-  end_game (total)
+  end_game (value_store)
   
 end
     
