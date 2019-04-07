@@ -41,8 +41,9 @@ get_user_input
 
   if get_user_input == 'h'
       num1 = deal_card
+      puts num1
       total = total + num1
-      
+      puts total
   elsif get_user_input == 's'
     
   else 
