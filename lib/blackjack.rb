@@ -60,6 +60,10 @@ def runner
   welcome
   initial_round
   
+  until total < 22 
+    hit?(total)
+  end
+  
   
   hit?
   
