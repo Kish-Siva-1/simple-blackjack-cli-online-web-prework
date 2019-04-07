@@ -34,7 +34,7 @@ end
 def hit?(total)
   
 prompt_user
-store = gets.chomp
+store = get_user_input
 
   if store == "h"
       num1 = deal_card
