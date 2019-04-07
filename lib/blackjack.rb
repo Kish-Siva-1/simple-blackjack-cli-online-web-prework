@@ -40,7 +40,7 @@ store = get_user_input
       num1 = deal_card
       total = total + num1
   elsif (store == "s")
-    
+      total
   else 
       invalid_command
       prompt_user
