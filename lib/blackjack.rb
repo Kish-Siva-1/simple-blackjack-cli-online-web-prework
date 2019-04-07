@@ -39,6 +39,7 @@ store = get_user_input
   if store == "h"
       num1 = deal_card
       total = total + num1
+      puts total
   elsif store == "s"
     
   else 
