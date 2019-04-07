@@ -44,7 +44,7 @@ get_user_input
       total = total + num1
       
   elsif get_user_input == 's'
-    exit
+    
   else 
       invalid_command
       prompt_user
