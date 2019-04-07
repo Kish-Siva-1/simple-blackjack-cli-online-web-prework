@@ -46,8 +46,6 @@ store = get_user_input
       prompt_user
   end
   
-  display_card_total(total)
-  
 end
 
 def invalid_command
