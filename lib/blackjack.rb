@@ -62,6 +62,7 @@ def runner
   
   until value_store > 21 do
     value_store = hit?(value_store)
+    display_card_total(value_store)
   end
   
   end_game (value_store)
