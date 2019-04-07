@@ -58,10 +58,10 @@ end
 
 def runner
   welcome
-  initial_round
+  value_store = initial_round
   
-  until total > 21 do
-    hit?(total)
+  until value_store > 21 do
+    value_store = hit?(value_store)
   end
   
   end_game (total)
