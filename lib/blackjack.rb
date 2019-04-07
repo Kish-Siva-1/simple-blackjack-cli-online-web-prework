@@ -48,7 +48,7 @@ get_user_input
   else 
       invalid_command
       prompt_user
-      
+      break
   end
   
   display_card_total(total)
