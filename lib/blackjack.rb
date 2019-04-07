@@ -44,7 +44,6 @@ store = get_user_input
   else 
       invalid_command
       prompt_user
-      
   end
   
   display_card_total(total)
