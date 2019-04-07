@@ -27,7 +27,7 @@ end
 def initial_round
   
     total = deal_card + deal_card
-return total 
+    puts total 
     display_card_total(total)
     
 end
